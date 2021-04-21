@@ -1,0 +1,32 @@
+.nav{
+    height: 50px;
+    width: 950px;
+    background-color: dimgray;
+    display: flex;
+
+}
+.nav-title{
+    color: white;
+    margin:5px 25px 10px 25px;
+}
+.nav-links{
+    display: flex;
+    list-style-type:none;
+    align-items: flex-end;
+
+}
+ul li{
+    margin-left: 20px;
+    position: relative;
+    left: 375px;
+
+}
+ul li a {
+    color: white;
+    text-decoration-line: none;
+}
+.btn{
+    background-color: lightskyblue;
+    color: white;
+    box-shadow: black 3px 3px;
+}
